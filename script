@@ -1,3 +1,18 @@
 #!/usr/bin/env ruby
 
-puts 'hello world'
+z = 'hello world'
+y = '------------------------------'
+
+x = "We Love Ruby"
+
+def type(words)
+ words.each_char do |c|
+   print c
+   sleep 0.1
+ end
+ puts ''
+end
+
+type(z)
+type(y)
+type(x)
